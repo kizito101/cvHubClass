@@ -1,0 +1,36 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+.text{
+    color:white;
+    text-decoration: underline;
+}
+.word{
+    color: red;
+    font-size: 80px;
+}
+
+
+@media screen and ( max-width:480px){
+    .text{
+        color: rgb(48, 16 pppp9,88);
+        font-size: 3rem;
+    }
+    body{
+ 
+
+        background-color: gold;
+    }
+    .text{
+        color: black;
+        cursor: pointer;
+    }
+    .text :hover{
+        color: black;
+        font-size: 4rem;
+    }
+    
+}
